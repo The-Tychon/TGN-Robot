@@ -75,8 +75,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-Hey there! My name is *Skyler* ✨.I can manage your group with lots of useful features, feel free to add me to your group. hit /help
- [❤](https://telegra.ph/file/244e02d20161cf9dabfe3.png)
+Hey there! My name is *Savage* ✨.I can manage your group with lots of useful features, feel free to add me to your group. hit /help
+ [❤](https://te.legra.ph/file/f95886fb9f39f40c5e534.png)
 """
 
 buttons = [
@@ -87,7 +87,7 @@ buttons = [
     [
         InlineKeyboardButton(text="Chatting zone 🎉", url=f"https://t.me/friends_forever_143"),
         InlineKeyboardButton(
-            text="Developer 🙋‍♂ ", url=f"https://t.me/SHIVAM9412"
+            text="Developer 🙋‍♂ ", url=f"https://t.me/itz_me_tychon"
         ),
     ],
     [
@@ -97,20 +97,20 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="➕ Add to your group ➕", url="t.me/skylerx_bot?startgroup=true"),
+        InlineKeyboardButton(text="➕ Add to your group ➕", url="t.me/SavageXrobot?startgroup=true"),
     ],
 ]
 
 
 HELP_STRINGS = """
 `you can choose any button from below..`
-You can also ask in support [❤️](https://telegra.ph/file/244e02d20161cf9dabfe3.png)"""
+You can also ask in support [❤️](https://te.legra.ph/file/f95886fb9f39f40c5e534.png)"""
 
-START_IMG = "https://telegra.ph/file/244e02d20161cf9dabfe3.png"
+START_IMG = "https://te.legra.ph/file/f95886fb9f39f40c5e534.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Lucifer](t.me/detctective_de) \
- Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/Zaid_updates) \
+ You can support the project [Tychon](t.me/itz_me_tychon) \
+ Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/electro_updates) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -359,7 +359,7 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Skyler Robot*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Savage Robot*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -397,8 +397,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *TGNRobot*
-                 \nHere is the [Source Code](https://github.com/Itsunknown-12/TGN-Robot) .""",
+            text=""" Hi..🤗 I'm *SavageRobot*
+                 \nHere is the [Source Code](https://t.me/itz_me_tychon) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -408,7 +408,7 @@ def Source_about_callback(update, context):
                  ]
                 ]
             ),
-        )
+        )6
     elif query.data == "source_back":
         query.message.edit_text(
                 PM_START_TEXT,
